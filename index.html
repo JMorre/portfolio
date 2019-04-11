@@ -1,36 +1,33 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" href="portfolio.css">
 		<title>Portfolio</title>
 	</head>
 	<body>
-		<h1>Portfolio</h1>
-		<hr>
-		<h2>About</h2>
-		<p>I'm Joseph Morrell, I'm a CS major at BYU, I'm a phenomenal person with so many great attributes I can't even list them.  
-But here's a short list:
-			<ul>
-				<li>Can make lists in HTML</li>
-				<li>Can handle basic git development workflow assignments</li>
-			</ul>
-		</p>
-		<h2>Projects</h2>
-		<ol>
-			<li>Youtube video downloader for Windows</li>
-			<li>Matrix reducer program</li>
-			<li>Basic Java image editor</li>
-		</ol>
-		<h2>Experience</h2>
-		<ul>
-			<li>Private tutor for Varsity Tutors and Wyzant</li>
-			<li>Lifeguard at Crestwood Pool, high school job</li>
-		</ul>
-		<h2>Contact</h2>
-		<ul>
-			<li>Phone</li>
-			<li>morrell.j2@gmail.com</li>
-			<li><a href="https://github.com/JMorre/">My GitHub Account</a></li>
-		</ul>
-		<p>I added a change</p>
+		<ul class="navbar">
+			<li class="navlist"><a id="active" href="index.html">Home</a></li>
+			<li class="navlist"><a href="projects.html">Projects</a></li>
+			<li class="navlist"><a href="experience.html">Experience</a></li>
+			<li class="navlist" id="last" style="float:right"><a href="contact.html">Contact</a></li>
+		</ul class="navbar">
+		<section>
+			<article>
+				<h1>Portfolio</h1>
+				<hr>
+				<h2>About</h2>
+				<p>I'm Joseph Morrell, I'm a CS major at BYU, I'm a phenomenal person with so many great attributes I can't even list them. But here's a short list:
+					<ul>
+						<li>Can make lists in HTML</li>
+						<li>Can handle basic git development workflow, DNS, and CSS assignments</li>
+					</ul>
+					<img src="facebook profile.jpg" alt="Me">
+				</p>
+			</article>
+			<aside>
+				<h2>Sidebar</h2>
+				<p>I don't know why I would want a sidebar for this, but here it is anyway</p>
+			</aside>
+		</section>
 	</body>
 </html>
